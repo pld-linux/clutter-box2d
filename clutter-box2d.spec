@@ -10,8 +10,10 @@ Source0:	http://source.clutter-project.org/sources/clutter-box2d/0.10/%{name}-%{
 URL:		http://www.clutter-project.org/
 BuildRequires:	clutter-devel >= 1.0.0
 BuildRequires:	docbook-dtd412-xml
+BuildRequires:	glibc-misc
 BuildRequires:	gobject-introspection-devel >= 0.6.3
 BuildRequires:	gtk-doc >= 1.8
+BuildRequires:	libstdc++-devel
 BuildRequires:	pkgconfig
 Requires:	clutter >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
